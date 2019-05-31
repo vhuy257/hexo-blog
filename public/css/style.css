@@ -1,0 +1,21 @@
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+html,
+body,
+#container {
+  height: 100%;
+}
+body {
+  background: #f8f8f8;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  -webkit-text-size-adjust: 100%;
+}

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: Huy Nguyễn Blog
+subtitle: Đây là blog của Huy Nguyễn
+description: Blog của Huy Nguyễn - Frontend Developer
 keywords:
-author: John Doe
+author: Huy Nguyễn
 language:
 timezone:
 
