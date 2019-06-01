@@ -1,7 +1,7 @@
 <div class='row'>
-  <ul>
+  <ul class="list-post">
     <% page.posts.each(function(post){ %>
-    <li>
+    <li class="item <%= post.slug %>">
       <h3>
         <a href="<%- url_for(post.path) %>">
           <%= post.title %>
@@ -10,7 +10,6 @@
       <div class='text-muted'>
         <%= date(post.date, config.date_format) %>
       </div>
-
       <% if(post.excerpt) { %>
       <p>
         <%- post.excerpt %>
