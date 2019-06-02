@@ -1,6 +1,6 @@
 <div class='row'>
   <ul class="list-post">
-    <% page.posts.each(function(post){ %>
+    <% page.posts.sort('dated').each(function(post){ %>
     <li class="item <%= post.slug %>">
       <h3>
         <a href="<%- url_for(post.path) %>">
