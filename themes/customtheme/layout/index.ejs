@@ -7,6 +7,14 @@
           <%= post.title %>
         </a>
       </h3>
+
+      <% if (post.tags && post.tags.length){ %>
+        <%- list_tags(post.tags, {
+          show_count: false,
+          class: 'article-tag'
+        }) %>
+      <% } %>
+
       <div class='text-muted'>
         <%= date(post.date, config.date_format) %>
       </div>

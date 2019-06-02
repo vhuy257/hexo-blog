@@ -1,7 +1,7 @@
 ---
 title: Deploy sử dụng Heroku
 date: 2019-06-01 15:21:19
-tags: lalala
+tags: [heroku, deploy]
 ---
 
 Heroku cung cấp dịch vụ máy chủ đám mây giúp dễ dàng trong việc deploy ứng dụng. Điều tuyệt vời ở Heroku là trang này bạn có thể sử dụng dịch vụ hoàn toàn miễn phí với các ứng dụng web không yêu cầu phải có tốc độ truy cập cao hay dung lượng lớn.

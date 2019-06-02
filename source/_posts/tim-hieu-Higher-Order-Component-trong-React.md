@@ -1,7 +1,7 @@
 ---
 title: Cùng tìm hiểu về Higher Order Component trong ReactJs
 date: 2019-06-02 16:49:36
-tags:
+tags: [react, higher-order-component, javascript]
 ---
 
 **Higher-order component** (HOC) là một kỹ thuật nâng cao trong React được sử dụng trong việc sử dụng lại các component. HOCs không là một phần trong React API. Một cách cụ thể, **một higher-order component là một hàm và nó nhận đối số là một component và trả về một component mới.** Higher-order component là một pattern tuyệt với và nó được chứng minh trong nhiều thư viện React ví dụ như Redux (thư viện được sử dụng để quản lý state) hay React-DnD (là một thư viện về drag and drop, nó khá khó hiểu cho người mới bắt đầu)...
