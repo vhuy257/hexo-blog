@@ -79,4 +79,4 @@ theme: customtheme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: heroku
-  repo: https://git.heroku.com/ancient-sea-72435.git
+  repo: https://git.heroku.com/vhuy-blog.git
